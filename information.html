@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="information.css">
+</head>
+
+<body>
+    <container>
+        
+    <h2> Personal Details</h2>
+    <hr>
+    <form action="/action_page.php">
+        <div class="class1">
+        <label for = "Name" > Name </label>
+        <input type = "text" id = "Name" placeholder="Enter your text"><br>
+        </div>
+        <br>
+        <div class="class2">
+        <label for ="Password"> Password </label>
+        <input type = "password" placeholder =" Enter Your Password" maxlength="10"><br>
+        </div>
+        <br>
+        <div class="class3">
+        <label for = "Gender"> Gender </label>
+        <input type = "radio"  name = "Gender" value = "Male"> 
+        <label for = "Male"> Male </label>
+        <input type = "radio" name="Gender" value = "Female"> 
+        <label for = "Female"> Female </label><br>
+    </div>
+        <br>
+        <div class = "class4">
+        <label for = "Hobbies"> Hobbies</label>
+        <input type = "checkbox" id= Hobbies value = "" >
+        <label for = "Books Readings"> Books Readings </label>
+        <input type ="checkbox" id = Hobbies value="">
+        <label for = "Music" > Music</label> 
+        <input type  ="checkbox" id = "hobbies" value ="">
+        <label for = "Travelling"> Travelling</label><br>
+        </div>
+        <br>
+        <div class = "class5">
+        <label for ="Country">Country</label>
+        <select>
+            <option value="">Pakistan</option>
+            <option value="">India</option>
+            <option value="">Iran</option>
+            <option value="">Turkey</option>
+            <option value="">China</option>
+        </select><br>
+    </div>
+        <br>
+        <label for = "Message"> Message</label>
+        </div>
+        <div class="class6-1">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+       </div>
+        <div class ="class7">
+            <input type = "button" value = "Save"> 
+            <input type = "button" value="Reset">
+        </div>
+    </form>
+
+</container>
+</body>
+</html>
